@@ -1,6 +1,6 @@
 # PySurf96
 
-This is a fork of [https://github.com/inlab-geo/pysurf96](https://github.com/inlab-geo/pysurf96) (originally from [https://github.com/miili/pysurf96](https://github.com/miili/pysurf96)). I have slightly changed the original rep, so that it is better fitted to Monte Carlo and variational surface wave inversion.
+This is a fork of [https://github.com/inlab-geo/pysurf96](https://github.com/inlab-geo/pysurf96) (originally from [https://github.com/miili/pysurf96](https://github.com/miili/pysurf96)). I have slightly changed the original repository, so that it is better fitted to the Monte Carlo and variational surface wave inversion.
 
 Below is the original version of **PySurf96**.
 
