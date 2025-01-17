@@ -138,7 +138,7 @@
 
 
 
-        if (maxval(thkm(1:nlayer))>50 .or. maxval(vpm(1:nlayer))>10 .or. minval(vpm(1:nlayer)) <0.1 ) then
+        if (maxval(thkm(1:nlayer))>50 .or. maxval(vpm(1:nlayer))>12 .or. minval(vpm(1:nlayer)) <0.1 ) then
             cg=0
             return
         endif 
