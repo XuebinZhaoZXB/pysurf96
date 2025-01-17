@@ -1,15 +1,8 @@
 # PySurf96
 
-This is a fork of [https://github.com/miili/pysurf96](https://github.com/miili/pysurf96) it is functionally equivalent but the difference is that the interface is being built using ctypes instead of `f2py`, hence there is no need for `f2py`. It uses a simpler build system and can be installed from this git repository using the following command. 
+This is a fork of [https://github.com/inlab-geo/pysurf96](https://github.com/inlab-geo/pysurf96) (originally from [https://github.com/miili/pysurf96](https://github.com/miili/pysurf96)). I have slightly changed the original rep, so that it is better fitted to Monte Carlo and variational surface wave inversion.
 
-```
-pip install git+https://github.com/inlab-geo/pysurf96
-```
-
-
-The original readme at the time of the fork being created is given below. We keep this version available for a situation where problems would re-surface with the `f2py` based wrapper available at [https://github.com/miili/pysurf96](https://github.com/miili/pysurf96) 
-
------
+Below is the original version of **PySurf96**.
 
 # PySurf96
 
