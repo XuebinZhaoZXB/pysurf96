@@ -134,13 +134,14 @@ def surf96(
     result=result_    
 
     if error:
-        raise Surf96Error(
-            "surf96 threw an error! "
-            "This may be due to low velocity zone causing"
-            " reverse phase velocity dispersion,"
-            " and mode jumping. Due to looking for Love waves in a halfspace"
-            " which is OK if there are Rayleigh data."
-        )
+        # raise Surf96Error(
+        #     "surf96 threw an error! "
+        #     "This may be due to low velocity zone causing"
+        #     " reverse phase velocity dispersion,"
+        #     " and mode jumping. Due to looking for Love waves in a halfspace"
+        #     " which is OK if there are Rayleigh data."
+        # )
+        result[:kmax] = 0.
 
     return result[:kmax]
 
